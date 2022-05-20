@@ -1,0 +1,81 @@
+body {
+    background-color: #D8E3E7;
+    color: #132C33;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-image: url("backgroundtech.jpg");
+    text-align: center;
+    display: block;
+}
+header img {
+    margin-top: 12px;
+    width: 125px;
+    height: 150px;
+    margin-left: 20px;
+}
+nav {
+    display: block;
+    text-align: center;
+}
+nav a {
+    margin: 10px 20px;
+}
+.top-hr {
+    border-top: 5px dotted #ffffff;
+    width: 550px;
+    margin-bottom: 20px;
+}
+a {
+    color: #126E82;
+}
+main, h2{
+    display: flex;
+    flex-direction: row;
+    background-color: #51C4D3;
+    margin: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+aside {
+flex: 0 0 150px;
+display: block;
+}
+main section, aside {
+    padding: 20px;
+}
+section {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+div {
+    display: block;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #126E82;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    background-color: #51C4D3;
+    color: #132C33;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

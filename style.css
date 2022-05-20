@@ -1,0 +1,33 @@
+header, footer {
+    background-color: #af3618;
+    padding: 12px;
+    text-align: center;
+}
+nav {
+    background-color: #d24c2a;
+    flex-basis: 20%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    padding: 10px;
+}
+div li {
+    margin-top: 8px;
+    list-style: none;
+}
+div li:hover {
+    font-weight: bold;
+}
+section {
+    flex-grow: 4;
+    padding: 10px;
+  }
+  .flex {
+    display: flex;
+    height: 100vh;
+  }
+.column {
+        flex-direction: column;
+}
+.row {
+        flex-direction: row;
+}
